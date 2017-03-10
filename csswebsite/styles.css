@@ -21,7 +21,7 @@ em, strong {
   display: inline; /* This is the default for em and strong. Adding block will have it display like the p & h1 elements. This comes in handy when you’re trying to turn <a> elements into buttons or format <img/> elements (both of these are inline boxes by default). */
 }
 
-div {
+.button {
   color: #FFF;
   background-color: #5995DA;
   font-weight: bold;
@@ -39,4 +39,14 @@ div {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.synopsis {
+  color: darkorange;        
+  font-style: italic;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto 0 80px;
 }
